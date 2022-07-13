@@ -1,0 +1,35 @@
+h1{
+    color: white;
+}
+h2{
+    text-align: center;
+}
+
+.titulo{
+    color: rgb(10, 10, 9);
+    text-align: center;
+}
+.imagem-carrossel{
+    object-fit: cover; /*Para deixar a imagem dimensionada de forma que não distorça tanto */
+    object-position: 0 80%; /*Para mudar a posição da imagem , estamos "subindo a imagem" */
+    height:400px ;
+    
+}
+
+.clique-aqui{
+    background-color: brown;
+    border-color: brown;
+}
+
+.borda-card{
+    border: 1px solid black;
+}
+.card-posicao-imagem{
+    object-fit: cover; 
+    /* object-position: 0 80%;  */
+    height:200px ;
+}
+.card-largura{
+    max-width: 18rem;
+}
+
